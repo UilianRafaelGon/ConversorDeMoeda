@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_gray"
+    android:padding="20dp">
+
+    <!-- Card de Saldo Principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/card_background"
+        android:padding="24dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_saldo_disponivel"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSaldoPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 0,00"
+            android:textSize="32sp"
+            android:textColor="@color/primary_dark"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ações da Carteira"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botão Depositar R$ -->
+    <Button
+        android:id="@+id/btnDepositar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/btn_depositar"
+        android:textSize="16sp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Botão Listar Recursos -->
+    <Button
+        android:id="@+id/btnListarRecursos"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/btn_listar_recursos"
+        android:textSize="16sp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Botão Converter Recursos -->
+    <Button
+        android:id="@+id/btnConverterRecursos"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/btn_converter_recursos"
+        android:textSize="16sp"
+        android:backgroundTint="@color/accent"
+        android:textColor="@color/white" />
+
+</LinearLayout>

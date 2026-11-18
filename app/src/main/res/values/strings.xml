@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Carteira Virtual</string>
+    <string name="title_saldo_disponivel">Saldo Disponível (R$)</string>
+    <string name="btn_depositar">Depositar R$</string>
+    <string name="btn_listar_recursos">Listar Recursos</string>
+    <string name="btn_converter_recursos">Converter Recursos</string>
+    
+    <!-- Depósito -->
+    <string name="title_deposito">Depósito em R$</string>
+    <string name="hint_valor_deposito">Digite o valor em R$ (Ex: 150.00)</string>
+    <string name="btn_confirmar_deposito">Confirmar Depósito</string>
+    <string name="msg_deposito_sucesso">Depósito realizado com sucesso!</string>
+    <string name="msg_valor_invalido">Por favor, digite um valor válido maior que zero.</string>
+    
+    <!-- Lista -->
+    <string name="title_listar">Recursos Financeiros</string>
+    <string name="msg_nenhum_recurso">Nenhum recurso encontrado.</string>
+    
+    <!-- Conversão -->
+    <string name="title_converter">Conversão de Moedas</string>
+    <string name="label_moeda_origem">Moeda Origem:</string>
+    <string name="label_moeda_destino">Moeda Destino:</string>
+    <string name="hint_valor_conversao">Valor a ser convertido</string>
+    <string name="btn_converter_acao">Comprar / Converter</string>
+    <string name="msg_saldo_insuficiente">Saldo insuficiente na moeda de origem para realizar a transação!</string>
+    <string name="msg_moedas_iguais">A moeda de origem e a moeda de destino devem ser diferentes.</string>
+</resources>
